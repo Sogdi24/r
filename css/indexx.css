@@ -1,0 +1,334 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Sofia+Sans+Extra+Condensed&display=swap');
+
+body {
+    color:rgb(245, 240, 240);
+    font-family:'Poppins', sans-serif;;
+    font-size: 14px;
+   
+}
+.searchTerm {
+    width: 1500px;
+    border: 2px solid #3a3c3cf3;
+    border-right: none;
+    padding: 5px;
+    /* height: 40px; */
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    color:#ffffff;
+  background-color:#3a3c3cc5;
+  }
+  
+  
+  .searchButton {
+    width: 40px;
+    /* height: 40px; */
+    border: 2px solid #3a3c3cf3;
+    background: #3a3c3cbd;
+    padding: 5px;
+    text-align: center;
+    color:#3a3c3c;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .search {
+    width: 110%;
+    position: relative;
+    display: flex;
+    height: 40px;
+  }
+  
+  .searchTerm:focus{
+    color: #f1f5f5;
+    font-size:medium;
+  }
+  
+  .searchimg {
+
+    margin-right: 2px;
+  }
+  
+  
+  .wrap{
+    width: 82%;
+    position: absolute;
+    left: 46%;
+    /* margin-left: 30px; */
+    transform: translate(-50%, -50%);
+ 
+  
+  }
+
+.container {
+    max-width: 1230px;
+    padding: 0 0px;
+    margin: 0 auto;
+
+}
+
+.imageCategory {
+    max-width: 100%;
+}
+
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.header {
+
+     background-image: url('/image/sky.jpg');
+    padding-top: 46px;
+   height: 730px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   margin-top: 30px;
+}
+
+.logo {
+    position: relative;
+ 
+}
+
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ 
+}
+
+.nav-list {
+ display: flex;
+ column-gap: 50px;
+ font-size: 25px;
+ margin-top: -120px;
+
+}
+
+.nav-button {
+  display: none;
+}
+
+.nav-item :hover{
+color: #c2a0b1;
+}
+
+.nav-link {
+ color: #f7f1f1;
+
+}
+
+.nav-link.active {
+    background-color: #8b8282;
+    border-radius: 10px;
+}
+
+.audioplayer {
+    opacity: 0.2;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+
+.header-row {
+    display: flex;justify-content: space-between;
+    column-gap: 30px;
+    background-color: #2b2a2b95;
+    width: 700px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.header-content p {
+line-height: 2;
+}
+
+.header-content {
+    max-width: 900px;
+    margin-top: 24px;
+    
+}
+
+.services {
+   padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.category img{
+  border-radius: 30px;
+}
+
+.category {
+    margin-bottom: 30px;
+    flex: 1 1 0;
+    min-width: 315px;
+
+}
+
+.category :hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+  
+}
+
+
+
+
+
+.contacts {
+  /* padding: 90px 0; */
+  
+  background-image: url('/image/sky.jpg');
+
+  display:grid;
+  position: relative;
+  grid-area: footer;
+  z-index: 1;
+  .content {
+    z-index: 2;
+    display:flex;
+    grid-template-columns: 1fr auto;
+    grid-gap: 4rem;
+    padding:2rem;
+    background:var(--footer-background);
+    min-height: 230px;
+  
+}
+    .contentDiv {
+      display: flex;
+      flex-direction: row;
+      margin-right: 30px;
+    }
+    a, p {
+        color:#F5F7FA;
+        text-decoration:none;
+        
+    }
+    a {
+      display: flex;
+      /* flex-direction: column; */
+      font-size:medium;
+    }
+    b {
+        color:white;
+        font-size:x-large;
+        display: flex;
+      
+    }
+    p {
+        margin-top: 160px;
+     
+        /* margin:0;
+        font-size:large; */
+    }
+    .divFooter {
+        margin-left: 50px;
+        
+    }
+    .divFooter :hover {
+        color: rgb(176, 119, 130);
+    }
+}
+
+.contacts-title {
+ margin-bottom: 40px;
+}
+
+.contacts-content {
+  min-width: 480px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.button {
+  background-color: #000;
+  display: inline-block;
+  padding: 7px 22px;
+  border-radius: 30px;
+
+  font-size: 18px;
+  color: #fb037a;
+
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.button:hover, .button:focus {
+  background-color: #5c5555;
+}
+
+.button:active {
+    background-color:#000;
+    top: 1px;
+    position: relative;
+}
+
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.contacts-footer {
+ color:#ebe1e6
+}
+
+.footerImg {
+    width: 30px;
+
+}
