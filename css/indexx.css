@@ -225,7 +225,7 @@ line-height: 2;
 .contacts {
   /* padding: 90px 0; */
   
-  background-image: url('../image/sky.jpg');
+background-image: url('../image/sky.jpg');
 
   display:grid;
   position: relative;
