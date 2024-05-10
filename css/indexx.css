@@ -81,7 +81,7 @@ body {
 
 .header {
 
- 
+  background-image: url('../image/sky.jpg');
     padding-top: 46px;
    height: 730px;
 }
