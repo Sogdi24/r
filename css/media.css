@@ -6,9 +6,8 @@
        margin-top: 50px;
        margin-left: 420px;
     }
-    .nav-button {
-       display: block;
-    }
+  
+ 
     .nav.open .nav-list {
        position: fixed;
        top: 0;
@@ -38,8 +37,9 @@
     .nav-button {
         position: fixed;
         z-index: 9;
-        top: 46px;
+        top: 10px;
         right: 30px;
+        
     }
     .header-nav {
         margin-bottom: 50px;
@@ -58,10 +58,12 @@
 
 @media (max-width: 700px) {
     header, footer, body {
-        width: 900px;
+        width: 700px;
         }
+     
     .nav-button {
         display: block;
+        margin-top: 130px;
      }
      .nav.open .nav-list {
         position: fixed;
@@ -135,12 +137,12 @@
      .nav-button {
         display: block;
         margin-right: 50px;
-        margin-top: -10px;
+        margin-top: 130px;
      }
      .wrap{
-        width: 62%;
+        width: 500px;
         position: absolute;
-         left: 43%;
+        margin-left: 150px;
         transform: translate(-50%, -50%);
       }
      .header-row {

@@ -81,9 +81,10 @@ body {
 
 .header {
 
-  background-image: url('../image/sky.jpg');
+     background-image: url('../image/sky.jpg');
     padding-top: 46px;
    height: 730px;
+   
 }
 
 .header-nav {
@@ -111,11 +112,12 @@ body {
  column-gap: 50px;
  font-size: 25px;
  margin-top: -120px;
-
+position: relative;
 }
 
 .nav-button {
   display: none;
+
 }
 
 .nav-item :hover{
@@ -225,7 +227,7 @@ line-height: 2;
 .contacts {
   /* padding: 90px 0; */
   
-background-image: url('../image/sky.jpg');
+  background-image: url('../image/sky.jpg');
 
   display:grid;
   position: relative;
